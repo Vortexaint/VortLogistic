@@ -685,7 +685,7 @@ const MAXT=26;let BEST=null;
 /* ---- picture mode: the whole layout drawn with the game's own sprites (no numbers) ---- */
 const SHEET=new Image();
 SHEET.onload=()=>{try{if($("view").value==="pic")showDiagram(SEL)}catch(e){}};
-SHEET.src="assets\sprite-sheet.png";
+SHEET.src="assets/sprite-sheet.png";
 const SPR={
   c:{bridge:[0,0],conv:[32,0],lim:[0,32],split:[32,32],line:[96,32],curve:[96,64]},
   p:{bridge:[64,0],conv:[96,0],lim:[0,32],split:[64,32],line:[64,64],curve:[64,96]}};
